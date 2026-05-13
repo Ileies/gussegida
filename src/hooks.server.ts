@@ -1,12 +1,14 @@
 import type { Handle } from '@sveltejs/kit';
-import { paraglideMiddleware } from '$lib/paraglide/server';
+import { runWithLocale, cookieName } from '$lib/messages';
 
-const handleParaglide: Handle = ({ event, resolve }) => paraglideMiddleware(event.request, ({ request, locale }) => {
-	event.request = request;
+const handleLocale: Handle = ({ event, resolve }) => {
+	const locale = event.cookies.get(cookieName) ?? 'de';
+	event.locals.locale = locale;
+	return runWithLocale(locale, () =>
+		resolve(event, {
+			transformPageChunk: ({ html }) => html.replace('%lang%', locale)
+		})
+	);
+};
 
-	return resolve(event, {
-		transformPageChunk: ({ html }) => html.replace('%paraglide.lang%', locale)
-	});
-});
-
-export const handle: Handle = handleParaglide;
+export const handle: Handle = handleLocale;

@@ -1,0 +1,21 @@
+{
+	"hello_world": ["Hallo, {name}!", "Hello, {name}!", "مرحبا يا {name}!"],
+	"nav_home": ["Startseite", "Home", "الرئيسية"],
+	"nav_about": ["Über uns", "About Us", "من نحن"],
+	"nav_catalog": ["Katalog", "Catalog", "الكتالوج"],
+	"nav_blog": ["Blog", "Blog", "المدونة"],
+	"nav_communication": ["Kontakt", "Contact", "اتصل بنا"],
+	"hero": ["Verleihen Sie den Geschmäckern Ihre persönliche Note.", "Put your signature on different tastes.", "ضع توقيعك على الأذواق المختلفة"],
+	"footer_tagline": ["Kaffee- & Cocktail-Sirupe und Aromen", "Coffee & Cocktail Syrups and Aromas", "شراب وأرومات القهوة والكوكتيل"],
+	"footer_nav": ["Navigation", "Navigation", "التنقل"],
+	"footer_products": ["Produkte", "Products", "المنتجات"],
+	"footer_copyright": ["© 2026 Gusse Gıda EU. Alle Rechte vorbehalten.", "© 2026 Gusse Gıda EU. All Rights Reserved.", "© 2026 Gusse Gıda EU. جميع الحقوق محفوظة."],
+	"product_syrups": ["Sirupe", "Syrups", "شراب"],
+	"product_topping": ["Topping-Saucen", "Topping Sauces", "صلصة التوبينغ"],
+	"product_fruit_sauces": ["Fruchtsaucen", "Fruit Sauces", "صلصات الفاكهة"],
+	"product_deco_sauces": ["Dekorsaucen", "Decoration Sauces", "صلصات الزينة"],
+	"product_bar_sauces": ["Bar-Saucen", "Bar Sauces", "صلصات البار"],
+	"product_powder_drinks": ["Pulvergetränke", "Powder Drinks", "مشروبات بودرة"],
+	"product_ice_cream_paste": ["Eiskrem-Paste", "Ice Cream Paste", "معجون الآيس كريم"],
+	"product_herbal_teas": ["Kräutertees", "Herbal Teas", "شاي الأعشاب"]
+}
