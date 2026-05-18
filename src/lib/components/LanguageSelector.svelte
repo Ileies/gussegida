@@ -7,18 +7,16 @@
 	const localeData: Record<string, { name: string; flag: string }> = {
 		de: { name: 'Deutsch', flag: '🇩🇪' },
 		en: { name: 'English', flag: '🇬🇧' },
-		ar: { name: 'العربية', flag: '🇸🇦' }
+		ar: { name: 'العربية', flag: '🇸🇦' },
+		tr: { name: 'Türkçe', flag: '🇹🇷' }
 	};
 
 	function selectLocale(locale: string) {
 		document.cookie = `${cookieName}=${locale}; path=/; max-age=${cookieMaxAge}`;
 		location.reload();
 	}
-
-	$inspect(open);
 </script>
 
-<!-- z-50 ensures the selector sits above the backdrop -->
 <div class="relative z-50">
 	<button
 		onclick={() => (open = !open)}
@@ -27,14 +25,13 @@
 		aria-haspopup="listbox"
 		aria-label="Sprache wählen"
 	>
-		<span class="text-xl">{localeData[getLocale()].flag}</span>
+		<span class="text-xl">{localeData[getLocale()]?.flag ?? '🌐'}</span>
 		<ChevronDown class="w-4 h-4 transition-transform duration-200 {open ? 'rotate-180' : ''}" />
 	</button>
 
 	{#if open}
-		<!-- Backdrop catches outside clicks; sits below z-50 so toggle button stays clickable -->
 		<button
-			class="fixed inset-0 z-9999 cursor-default"
+			class="fixed inset-0 z-40 cursor-default"
 			onclick={() => (open = false)}
 			tabindex="-1"
 			aria-hidden="true"

@@ -2,8 +2,8 @@ import { readFileSync, readdirSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import type { Plugin } from 'vite';
 
-const LOCALES = ['de', 'en', 'ar'] as const;
-const LOCALE_INDEX: Record<string, number> = { de: 0, en: 1, ar: 2 };
+const LOCALES = ['de', 'en', 'ar', 'tr'] as const;
+const LOCALE_INDEX: Record<string, number> = { de: 0, en: 1, ar: 2, tr: 3 };
 const MESSAGES_DIR = join(process.cwd(), 'messages');
 const OUTPUT_PATH = join(process.cwd(), 'src/lib/messages.ts');
 
