@@ -1,0 +1,26 @@
+.*
+
+node_modules
+
+# Output
+/build
+
+!.npmrc
+!.prettierignore
+!.prettierrc
+
+# Env
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Paraglide
+src/lib/paraglide
+
+# Database
+*.db
+*.db-shm
+*.db-wal
