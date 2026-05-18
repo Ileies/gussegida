@@ -7,16 +7,6 @@ const config = {
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 	kit: { adapter: adapter() },
-	compilerOptions: {
-		runes: true
-	},
-	vitePlugin: {
-		compilerOptions: {
-			runes: true
-		},
-		// prevent compiling deps
-		exclude: ['node_modules/**']
-	}
 };
 
 export default config;

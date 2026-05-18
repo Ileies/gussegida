@@ -1,2 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+/*#6b7a6b*/
+html {
+    font-family: Caudex, Arial, Tahoma, sans-serif;
+}
