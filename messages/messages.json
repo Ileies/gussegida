@@ -1,31 +1,182 @@
 {
-	"hello_world": ["Hallo, {name}!", "Hello, {name}!", "مرحبا يا {name}!", "Merhaba, {name}!"],
-	"nav_home": ["Startseite", "Home", "الرئيسية", "Ana Sayfa"],
-	"nav_about": ["Über uns", "About Us", "من نحن", "Hakkımızda"],
-	"nav_products": ["Produkte", "Products", "المنتجات", "Ürünler"],
-	"nav_catalog": ["Katalog", "Catalog", "الكتالوج", "Katalog"],
-	"nav_blog": ["Blog", "Blog", "المدونة", "Blog"],
-	"nav_communication": ["Kontakt", "Contact", "اتصل بنا", "İletişim"],
-	"hero": ["Verleihen Sie den Geschmäckern Ihre persönliche Note.", "Put your signature on different tastes.", "ضع توقيعك على الأذواق المختلفة", "Tatlarınıza kendi imzanızı atın."],
-	"hero_cta_products": ["Produkte entdecken", "Discover Products", "اكتشف المنتجات", "Ürünleri Keşfedin"],
-	"hero_cta_catalog": ["Katalog herunterladen", "Download Catalog", "تحميل الكتالوج", "Kataloğu İndir"],
-	"footer_tagline": ["Kaffee- & Cocktail-Sirupe und Aromen", "Coffee & Cocktail Syrups and Aromas", "شراب وأرومات القهوة والكوكتيل", "Kahve ve Kokteyl Şurupları ve Aromaları"],
-	"footer_nav": ["Navigation", "Navigation", "التنقل", "Navigasyon"],
-	"footer_products": ["Produkte", "Products", "المنتجات", "Ürünler"],
-	"footer_copyright": ["© 2026 Gusse Gıda EU. Alle Rechte vorbehalten.", "© 2026 Gusse Gıda EU. All Rights Reserved.", "© 2026 Gusse Gıda EU. جميع الحقوق محفوظة.", "© 2026 Gusse Gıda EU. Tüm hakları saklıdır."],
-	"product_syrups": ["Sirupe", "Syrups", "شراب", "Şuruplar"],
-	"product_topping": ["Topping-Saucen", "Topping Sauces", "صلصة التوبينغ", "Topping Sosları"],
-	"product_fruit_sauces": ["Fruchtsaucen", "Fruit Sauces", "صلصات الفاكهة", "Meyve Sosları"],
-	"product_deco_sauces": ["Dekorsaucen", "Decoration Sauces", "صلصات الزينة", "Dekor Sosları"],
-	"product_bar_sauces": ["Bar-Saucen", "Bar Sauces", "صلصات البار", "Bar Sosları"],
-	"product_powder_drinks": ["Pulvergetränke", "Powder Drinks", "مشروبات بودرة", "Toz İçecekler"],
-	"product_ice_cream_paste": ["Eiskrem-Paste", "Ice Cream Paste", "معجون الآيس كريم", "Dondurma Patesi"],
-	"product_herbal_teas": ["Kräutertees", "Herbal Teas", "شاي الأعشاب", "Bitki Çayları"],
-	"product_frozen": ["Tiefkühl", "Frozen Products", "منتجات مجمدة", "Dondurulmuş Ürünler"],
-	"feature_syrups_title": ["Erstklassige Sirupe", "Premium Syrups", "شرابات متميزة", "Birinci Sınıf Şuruplar"],
-	"feature_syrups_text": ["Über 100 Sirupsorten für Kaffee, Cocktails und Desserts — entwickelt von erfahrenen Lebensmittelingenieuren in enger Zusammenarbeit mit Barpersonal aus der ganzen Türkei.", "Over 100 syrup varieties for coffee, cocktails and desserts — developed by experienced food engineers in close collaboration with bar professionals across Turkey.", "أكثر من 100 نوع من الشرابات للقهوة والكوكتيل والحلويات — طوّرها مهندسو الأغذية ذوو الخبرة.", "Kahve, kokteyl ve tatlılar için 100'den fazla şurup çeşidi — deneyimli gıda mühendisleri tarafından geliştirildi."],
-	"feature_lemonade_title": ["Tiefkühl-Limonaden", "Frozen Lemonades", "عصائر مجمدة", "Dondurulmuş Limonatalar"],
-	"feature_lemonade_text": ["Fruchtige Tiefkühl-Limonaden für Cafés und Bars — einfach in der Zubereitung, unvergleichlich im Geschmack. Direkt aus unserer Produktion in Çerkezköy.", "Fruity frozen lemonades for cafés and bars — easy to prepare, unmatched in taste. Directly from our production facility in Çerkezköy.", "عصائر فواكه مجمدة للمقاهي والبارات — سهلة التحضير، لا مثيل لها في الطعم.", "Kafeler ve barlar için meyveli dondurulmuş limonatalar — hazırlaması kolay, tadı benzersiz."],
-	"feature_coffee_title": ["Haseki Sultan & La Ferme", "Haseki Sultan & La Ferme", "هاسكي سلطان ولا فيرم", "Haseki Sultan & La Ferme"],
-	"feature_coffee_text": ["Unsere Eigenmarken für Kaffee-Aromen und Sirupe — entwickelt für den professionellen Einsatz in Cafés und Restaurants weltweit.", "Our own brands for coffee aromas and syrups — developed for professional use in cafés and restaurants worldwide.", "علاماتنا التجارية الخاصة لنكهات القهوة والشرابات — مطوّرة للاستخدام المهني.", "Kahve aromaları ve şurupları için kendi markalarımız — dünya genelinde profesyonel kullanım için geliştirildi."]
+	"hello_world": [
+		"Hallo, {name}!",
+		"Hello, {name}!",
+		"مرحبا يا {name}!",
+		"Merhaba, {name}!"
+	],
+	"nav_home": [
+		"Startseite",
+		"Home",
+		"الرئيسية",
+		"Ana Sayfa"
+	],
+	"nav_about": [
+		"Über uns",
+		"About Us",
+		"من نحن",
+		"Hakkımızda"
+	],
+	"nav_products": [
+		"Produkte",
+		"Products",
+		"المنتجات",
+		"Ürünler"
+	],
+	"nav_catalog": [
+		"Katalog",
+		"Catalog",
+		"الكتالوج",
+		"Katalog"
+	],
+	"nav_blog": [
+		"Blog",
+		"Blog",
+		"المدونة",
+		"Blog"
+	],
+	"nav_communication": [
+		"Kontakt",
+		"Contact",
+		"اتصل بنا",
+		"İletişim"
+	],
+	"hero": [
+		"Verleihen Sie den Geschmäckern Ihre persönliche Note.",
+		"Put your signature on different tastes.",
+		"ضع توقيعك على الأذواق المختلفة",
+		"Tatlarınıza kendi imzanızı atın."
+	],
+	"hero_cta_products": [
+		"Produkte entdecken",
+		"Discover Products",
+		"اكتشف المنتجات",
+		"Ürünleri Keşfedin"
+	],
+	"hero_cta_catalog": [
+		"Katalog herunterladen",
+		"Download Catalog",
+		"تحميل الكتالوج",
+		"Kataloğu İndir"
+	],
+	"footer_tagline": [
+		"Kaffee- & Cocktail-Sirupe und Aromen",
+		"Coffee & Cocktail Syrups and Aromas",
+		"شراب وأرومات القهوة والكوكتيل",
+		"Kahve ve Kokteyl Şurupları ve Aromaları"
+	],
+	"footer_nav": [
+		"Navigation",
+		"Navigation",
+		"التنقل",
+		"Navigasyon"
+	],
+	"footer_products": [
+		"Produkte",
+		"Products",
+		"المنتجات",
+		"Ürünler"
+	],
+	"footer_copyright": [
+		"© 2026 Gusse Gıda EU. Alle Rechte vorbehalten.",
+		"© 2026 Gusse Gıda EU. All Rights Reserved.",
+		"© 2026 Gusse Gıda EU. جميع الحقوق محفوظة.",
+		"© 2026 Gusse Gıda EU. Tüm hakları saklıdır."
+	],
+	"product_syrups": [
+		"Sirupe",
+		"Syrups",
+		"شراب",
+		"Şuruplar"
+	],
+	"product_topping": [
+		"Topping-Saucen",
+		"Topping Sauces",
+		"صلصة التوبينغ",
+		"Topping Sosları"
+	],
+	"product_fruit_sauces": [
+		"Fruchtsaucen",
+		"Fruit Sauces",
+		"صلصات الفاكهة",
+		"Meyve Sosları"
+	],
+	"product_deco_sauces": [
+		"Dekorsaucen",
+		"Decoration Sauces",
+		"صلصات الزينة",
+		"Dekor Sosları"
+	],
+	"product_bar_sauces": [
+		"Bar-Saucen",
+		"Bar Sauces",
+		"صلصات البار",
+		"Bar Sosları"
+	],
+	"product_powder_drinks": [
+		"Pulvergetränke",
+		"Powder Drinks",
+		"مشروبات بودرة",
+		"Toz İçecekler"
+	],
+	"product_ice_cream_paste": [
+		"Eiskrem-Paste",
+		"Ice Cream Paste",
+		"معجون الآيس كريم",
+		"Dondurma Patesi"
+	],
+	"product_herbal_teas": [
+		"Kräutertees",
+		"Herbal Teas",
+		"شاي الأعشاب",
+		"Bitki Çayları"
+	],
+	"product_frozen": [
+		"Tiefkühl",
+		"Frozen Products",
+		"منتجات مجمدة",
+		"Dondurulmuş Ürünler"
+	],
+	"feature_syrups_title": [
+		"Erstklassige Sirupe",
+		"Premium Syrups",
+		"شرابات متميزة",
+		"Birinci Sınıf Şuruplar"
+	],
+	"feature_syrups_text": [
+		"Über 100 Sirupsorten für Kaffee, Cocktails und Desserts — entwickelt von erfahrenen Lebensmittelingenieuren in enger Zusammenarbeit mit Barpersonal aus der ganzen Türkei.",
+		"Over 100 syrup varieties for coffee, cocktails and desserts — developed by experienced food engineers in close collaboration with bar professionals across Turkey.",
+		"أكثر من 100 نوع من الشرابات للقهوة والكوكتيل والحلويات — طوّرها مهندسو الأغذية ذوو الخبرة.",
+		"Kahve, kokteyl ve tatlılar için 100'den fazla şurup çeşidi — deneyimli gıda mühendisleri tarafından geliştirildi."
+	],
+	"feature_lemonade_title": [
+		"Tiefkühl-Limonaden",
+		"Frozen Lemonades",
+		"عصائر مجمدة",
+		"Dondurulmuş Limonatalar"
+	],
+	"feature_lemonade_text": [
+		"Fruchtige Tiefkühl-Limonaden für Cafés und Bars — einfach in der Zubereitung, unvergleichlich im Geschmack. Direkt aus unserer Produktion in Çerkezköy.",
+		"Fruity frozen lemonades for cafés and bars — easy to prepare, unmatched in taste. Directly from our production facility in Çerkezköy.",
+		"عصائر فواكه مجمدة للمقاهي والبارات — سهلة التحضير، لا مثيل لها في الطعم.",
+		"Kafeler ve barlar için meyveli dondurulmuş limonatalar — hazırlaması kolay, tadı benzersiz."
+	],
+	"feature_coffee_title": [
+		"Haseki Sultan & La Ferme",
+		"Haseki Sultan & La Ferme",
+		"هاسكي سلطان ولا فيرم",
+		"Haseki Sultan & La Ferme"
+	],
+	"feature_coffee_text": [
+		"Unsere Eigenmarken für Kaffee-Aromen und Sirupe — entwickelt für den professionellen Einsatz in Cafés und Restaurants weltweit.",
+		"Our own brands for coffee aromas and syrups — developed for professional use in cafés and restaurants worldwide.",
+		"علاماتنا التجارية الخاصة لنكهات القهوة والشرابات — مطوّرة للاستخدام المهني.",
+		"Kahve aromaları ve şurupları için kendi markalarımız — dünya genelinde profesyonel kullanım için geliştirildi."
+	],
+	"products_count": [
+		"{count} Produkte",
+		"{count} Products",
+		"{count} منتج",
+		"{count} ürün"
+	]
 }
