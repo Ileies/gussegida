@@ -1,4 +1,4 @@
-# Gusse Gıda — Vollständige Produktliste
+# Gusse Gıda - Vollständige Produktliste
 
 Quelle: gussegida.com.tr
 Stand: Mai 2026
@@ -8,7 +8,7 @@ Preisangaben sind auf der Website nicht vorhanden.
 
 ---
 
-## Şuruplar — Sirupe (78 Varianten)
+## Şuruplar - Sirupe (78 Varianten)
 
 Alle Sirupe sind für Cafés, Bars und Heimgebrauch ausgelegt (Kaffeespezialitäten, Cocktails, Limonaden).
 
@@ -95,7 +95,7 @@ Alle Sirupe sind für Cafés, Bars und Heimgebrauch ausgelegt (Kaffeespezialitä
 
 ---
 
-## Topping — Topping-Saucen (8 Varianten)
+## Topping - Topping-Saucen (8 Varianten)
 
 Dickflüssige Toppings zum Dekorieren und Verfeinern von Getränken und Desserts.
 
@@ -112,7 +112,7 @@ Dickflüssige Toppings zum Dekorieren und Verfeinern von Getränken und Desserts
 
 ---
 
-## Toz İçecekler — Pulvergetränke (6 Varianten)
+## Toz İçecekler - Pulvergetränke (6 Varianten)
 
 Instantpulver für heiße Getränke.
 
@@ -127,7 +127,7 @@ Instantpulver für heiße Getränke.
 
 ---
 
-## Bitki Çayları — Kräutertees (13 Varianten) — Eigenmarke: Gustea
+## Bitki Çayları - Kräutertees (13 Varianten) - Eigenmarke: Gustea
 
 Lose Kräutertees und Teemischungen.
 
@@ -149,7 +149,7 @@ Lose Kräutertees und Teemischungen.
 
 ---
 
-## Meyveli Soslar — Fruchtsaucen (38 Varianten)
+## Meyveli Soslar - Fruchtsaucen (38 Varianten)
 
 Fruchtige Saucen für Cocktails, Mocktails und Kaffeespezialitäten.
 
@@ -196,7 +196,7 @@ Fruchtige Saucen für Cocktails, Mocktails und Kaffeespezialitäten.
 
 ---
 
-## Dekor Sos — Dekor-Saucen (10 Varianten)
+## Dekor Sos - Dekor-Saucen (10 Varianten)
 
 Dünnflüssige Saucen für Präsentation und Dekoration von Getränken (Latte Art, Tellerdekoration).
 
@@ -215,7 +215,7 @@ Dünnflüssige Saucen für Präsentation und Dekoration von Getränken (Latte Ar
 
 ---
 
-## Bar Sosları — Bar-Saucen (9 Varianten)
+## Bar Sosları - Bar-Saucen (9 Varianten)
 
 Dickflüssige Profi-Saucen für Bartender und Baristas.
 
@@ -233,7 +233,7 @@ Dickflüssige Profi-Saucen für Bartender und Baristas.
 
 ---
 
-## Dondurulmuş Ürünler — Tiefkühlprodukte (4 Varianten)
+## Dondurulmuş Ürünler - Tiefkühlprodukte (4 Varianten)
 
 Fertige Tiefkühl-Limonaden und -Säfte.
 
@@ -260,4 +260,4 @@ Fertige Tiefkühl-Limonaden und -Säfte.
 | Dondurulmuş Ürünler (Tiefkühl) | 4 |
 | **Gesamt** | **166** |
 
-*Hinweis: Die Website gibt 209 Varianten an — die Differenz sind vermutlich Produkte aus der Kategorie „Profesyonel Soslar" (Profisaucen), die nicht öffentlich gelistet sind, sowie mögliche weitere Unterkategorien.*
+*Hinweis: Die Website gibt 209 Varianten an - die Differenz sind vermutlich Produkte aus der Kategorie „Profesyonel Soslar" (Profisaucen), die nicht öffentlich gelistet sind, sowie mögliche weitere Unterkategorien.*

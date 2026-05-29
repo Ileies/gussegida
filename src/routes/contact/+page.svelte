@@ -22,7 +22,7 @@
         <div class="flex flex-col gap-8">
             <div>
                 <h2 class="text-2xl font-bold text-foreground mb-1 font-[Caudex]">Gusse Gıda</h2>
-                <p class="text-muted-foreground text-sm">Çerkezköy, Tekirdağ — Türkiye</p>
+                <p class="text-muted-foreground text-sm">Çerkezköy, Tekirdağ - Türkiye</p>
             </div>
             <div class="flex flex-col gap-5">
                 <div class="flex items-start gap-3 text-muted-foreground">

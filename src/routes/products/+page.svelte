@@ -11,7 +11,7 @@
 
 <div class="mx-auto max-w-6xl px-6 py-12">
 	{#if data.categories.length === 0}
-		<p class="py-16 text-center text-muted-foreground">—</p>
+		<p class="py-16 text-center text-muted-foreground">-</p>
 	{:else}
 		<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
 			{#each data.categories as cat (cat.slug)}

@@ -1,4 +1,4 @@
-# Gusse Gıda — Website
+# Gusse Gıda - Website
 
 Corporate website for **Gusse Gıda**, a Turkish manufacturer of coffee and cocktail syrups, fruit sauces, herbal teas, and related products. Built with SvelteKit 5, served as a Node.js process with a local SQLite database.
 
@@ -39,7 +39,7 @@ bun run scripts/seed.ts
 bun run dev
 ```
 
-The SQLite database file (`gussegida.db`) lives next to the process — no external database instance needed.
+The SQLite database file (`gussegida.db`) lives next to the process - no external database instance needed.
 
 ---
 
@@ -52,7 +52,7 @@ src/
 │   ├── i18n/        # Translation helpers and type definitions
 │   └── components/  # Shared UI components
 ├── routes/
-│   ├── /            # Home — hero, category grid, feature sections
+│   ├── /            # Home - hero, category grid, feature sections
 │   ├── products/    # All-products overview
 │   ├── products/[category]/  # Category detail page
 │   ├── about/
@@ -85,8 +85,8 @@ Translation files live under `messages/<locale>.json`. The active locale is reso
 
 Schema is defined in `src/lib/db/schema.ts` using Drizzle. Two main tables:
 
-- **`categories`** — `id`, `slug`, `name_de/en/ar/tr`, `sort_order`, `image_path`
-- **`products`** — `id`, `category_id`, `slug`, `name_de/en/ar/tr`, `image_path`
+- **`categories`** - `id`, `slug`, `name_de/en/ar/tr`, `sort_order`, `image_path`
+- **`products`** - `id`, `category_id`, `slug`, `name_de/en/ar/tr`, `image_path`
 
 The catalog spans **209 product variants** across 8 categories:
 
@@ -94,7 +94,7 @@ The catalog spans **209 product variants** across 8 categories:
 |---|---|
 | Şuruplar (Syrups) | 78 |
 | Meyveli Soslar (Fruit Sauces) | 38 |
-| Bitki Çayları (Herbal Teas) — *Gustea* | 13 |
+| Bitki Çayları (Herbal Teas) - *Gustea* | 13 |
 | Dekor Sos (Decor Sauces) | 10 |
 | Bar Sosları (Bar Sauces) | 9 |
 | Topping | 8 |

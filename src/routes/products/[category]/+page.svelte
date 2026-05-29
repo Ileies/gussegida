@@ -26,7 +26,7 @@
 
 <div class="mx-auto max-w-6xl px-6 py-12">
 	{#if data.products.length === 0}
-		<p class="py-16 text-center text-muted-foreground">—</p>
+		<p class="py-16 text-center text-muted-foreground">-</p>
 	{:else}
 		<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
 			{#each data.products as product (product.slug)}
