@@ -9,6 +9,18 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
+	<title>Gusse Gida - Kaffee- &amp; Cocktail-Sirupe</title>
+	<meta
+		name="description"
+		content="Gusse Gida bietet uber 166 Produkte: Sirupe, Topping-Saucen, Fruchtsaucen und mehr fur Cafes und Bars. Produktion in Cerkezkoy, Turkei."
+	/>
+	<meta property="og:title" content="Gusse Gida - Kaffee- &amp; Cocktail-Sirupe" />
+	<meta
+		property="og:description"
+		content="Uber 166 Produkte fur Cafes und Bars: Sirupe, Saucen, Krautertees und Tiefkühlprodukte."
+	/>
+	<meta property="og:image" content="/assets-original/general/Untitled-1-1024x512.jpg" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <div class="min-h-[100dvh] flex flex-col">
