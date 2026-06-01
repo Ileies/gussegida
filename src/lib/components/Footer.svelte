@@ -8,8 +8,7 @@
     const navigation = [
         { href: '/', label: () => m.nav_home() },
         { href: '/about', label: () => m.nav_about() },
-        { href: '/catalog', label: () => m.nav_catalog() },
-        { href: '/blog', label: () => m.nav_blog() },
+        { href: '/katalog.pdf', label: () => m.nav_catalog() },
         { href: '/contact', label: () => m.nav_communication() }
     ];
 
@@ -60,7 +59,7 @@
             <h3 class="font-semibold text-primary uppercase tracking-wider text-xs mb-1">{m.footer_products()}</h3>
             {#each products as product, i (i)}
                 <!--eslint-disable-next-line svelte/no-navigation-without-resolve-->
-                <a href="/catalog" class="text-sm text-muted-foreground hover:text-primary transition-colors w-fit">
+                <a href="/products" class="text-sm text-muted-foreground hover:text-primary transition-colors w-fit">
                     {product()}
                 </a>
             {/each}

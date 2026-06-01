@@ -18,8 +18,7 @@
     const navigation = [
         { href: '/', label: () => m.nav_home(), exact: true },
         { href: '/about', label: () => m.nav_about() },
-        { href: '/catalog', label: () => m.nav_catalog() },
-        { href: '/blog', label: () => m.nav_blog() },
+        { href: '/katalog.pdf', label: () => m.nav_catalog(), external: true },
         { href: '/contact', label: () => m.nav_communication() }
     ];
 
@@ -90,10 +89,12 @@
                     </div>
 
                     <!-- Other nav links -->
-                    {#each navigation as { href, label, exact } (href)}
+                    {#each navigation as { href, label, exact, external } (href)}
                         <!--eslint-disable-next-line svelte/no-navigation-without-resolve-->
                         <a
                             {href}
+                            target={external ? '_blank' : undefined}
+                            rel={external ? 'noopener' : undefined}
                             class="hover:bg-muted focus:bg-muted rounded-lg px-2.5 py-1.5 text-sm font-medium transition-all focus-visible:ring-3 focus-visible:ring-ring/50 focus-visible:outline-none inline-flex h-9 items-center {isActive(href, exact) ? 'bg-accent text-accent-foreground font-semibold' : ''}"
                         >
                             {label()}
@@ -127,10 +128,12 @@
 {#if mobileOpen}
     <div class="md:hidden fixed inset-x-0 top-[4rem] z-30 bg-background border-b border-border shadow-lg font-[Lato]">
         <nav class="flex flex-col gap-0.5 p-3">
-            {#each navigation as { href, label, exact } (href)}
+            {#each navigation as { href, label, exact, external } (href)}
                 <!--eslint-disable-next-line svelte/no-navigation-without-resolve-->
                 <a
                     {href}
+                    target={external ? '_blank' : undefined}
+                    rel={external ? 'noopener' : undefined}
                     onclick={closeMobile}
                     class="px-3 py-2.5 rounded-md text-sm font-medium transition-colors hover:bg-accent hover:text-accent-foreground {isActive(href, exact) ? 'bg-accent text-accent-foreground font-semibold' : 'text-muted-foreground'}"
                 >

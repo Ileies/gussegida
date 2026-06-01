@@ -22,9 +22,10 @@
             <Button href="/products" size="lg" class="rounded-full shadow-lg px-8">
                 {m.hero_cta_products()}
             </Button>
-            <!--eslint-disable-next-line svelte/no-navigation-without-resolve-->
             <Button
-                href="/catalog"
+                href="/katalog.pdf"
+                target="_blank"
+                rel="noopener"
                 variant="outline"
                 size="lg"
                 class="rounded-full shadow-lg px-8 bg-white/15 text-white border-white/50 hover:bg-white/25 backdrop-blur-sm"
